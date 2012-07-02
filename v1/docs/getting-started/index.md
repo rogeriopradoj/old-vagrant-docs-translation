@@ -54,8 +54,8 @@ $ vagrant up
 Enquanto o resto do guia de iniciação irá focar em explicar como construir
 uma máquina virtual completamente funcional para servir aplicações Rails, você
 precisa se acostumar com o trecho de código acima. Depois da configuração
-inicial de qualquer ambiente Vagrant, esse trecho será tudo que qualquer
+inicial de todo ambiente Vagrant, esse trecho será tudo que um
 desenvolvedor precisará para criar seu ambiente de desenvolvimento! Perceba que
-o trecho acima no fim cria uma máquina virtual totalmente funcional de 512MB
+o trecho acima por fim cria uma máquina virtual totalmente funcional de 512MB
 que roda Ubuntu no background, embora a máquina não faça muita coisa nesse
 ponto.
