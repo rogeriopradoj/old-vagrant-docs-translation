@@ -38,7 +38,7 @@ você economize tempo e frustação.
 
 ### Para Equipes
 
-Todos membro de uma equipe idealmente tem ambientes de desenvolvimento idênticos: mesmas
+Todos os membros de uma equipe idealmente têm ambientes de desenvolvimento idênticos: mesmas
 dependências, mesmas versões, mesmas configurações, mesmo tudo. Mas isso simplesmente não é
 a verdade atualmente. Com os ORMs agnósticos de banco de dados, múltipls opções de servidors
 web e bibliotecas que evoluem rapidamente, um membro da equipe pode estar usando o MySQL com
@@ -50,7 +50,7 @@ um ambiente virtual de desenvolvimento consistente e portátil que seja fácil e
 
 ### Para Empresas
 
-Se você já fez manutenção em uma aplicação web grant, uma das partes mais difíceis é
+Se você já fez manutenção em uma aplicação web grande, uma das partes mais difíceis é
 acrescentar novos recursos. Filas de mensagens, cache, servidores de banco de dados e
 outros pontos de infraestrutura significam uma série de instalações e um monte de outras
 configurações (veja [case-in-point: insanity](http://www.robbyonrails.com/articles/2010/02/08/installing-ruby-on-rails-passenger-postgresql-mysql-oh-my-zsh-on-snow-leopard-fourth-edition)). O Vagrant fornece a você as ferramentas para construir um ambiente de desenvolvimento uma vez e então distribuí-lo facilmente para os novos membros da sua equipe
