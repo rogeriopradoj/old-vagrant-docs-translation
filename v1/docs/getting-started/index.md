@@ -14,14 +14,14 @@ O primeiro conjunto de páginas serve para introduzir você ao Vagrant e ao que
 ele tem a oferecer, enquanto o restante do guia é um passo a passo técnico para
 a construção de um ambiente de desenvolvimento web totalmente funcional. O guia
 de iniciação termina explicando como empacotar o novo ambiente que o vagrant
-criou para que outros desenvolvedores o iniciem e coloquem para rodar com apenas
+criou para que outros desenvolvedores o iniciem e o coloquem para rodar com apenas
 alguns comandos.
 
 ## Obtenha o VirtualBox
 
 O Vagrant depende do [VirtualBox da Oracle](http://www.virtualbox.org) para
 criar todo o seu ambiente virtual. O VirtualBox é um virtualizador de uso geral
-para hardware x86. Voltado para utilização em servidores, desktop e
+para hardware x86. Voltado para utilização em servidores, desktops e
 dispositivos embarcados, ele é uma solução de virtualização com qualidade
 profissional, além de ser um software de código aberto. O VirtualBox roda no
 **Windows**, no **Mac OS X**, no **Linux** e no **Solaris**.
