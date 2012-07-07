@@ -1,22 +1,30 @@
 ---
 layout: getting_started
-title: Getting Started - Provisioning
+title: Começando - Provisionamento
 
-current: Provisioning
+current: Provisionamento
 previous: SSH
 previous_url: /v1/docs/getting-started/ssh.html
 next: Port Forwarding
 next_url: /v1/docs/getting-started/ports.html
 ---
-# Provisioning
+# Provisionamento
 
-Boxes aren't always going to be one-step setups for your Vagrant environment.
-Often times boxes will be used as a base for a more complicated setup. For
-example: Perhaps you're creating a web application which also uses AMQP and
-some custom background worker daemons. In this situation, it would be easiest
-to use the base box, but then add the custom software on top of it (and then
-packaging it so others can more easily make use of it, but we'll cover this
-later).
+As boxes nem sempre serão configurações de um único passo para o seu ambiente
+Vagrant. Frequentemente as boxes serão utilizadas como uma base para
+configurações mais complicadas. Por exemplo: talvez você esteja criando uma
+aplicação web que também usa AMQP e alguns background worker daemons
+customizados. Nessa situação, seria mais fácil e depois adicionar software
+personalizado em cima dela (e depois empacotá-la para que outros possam
+usá-la mais facilmente, iremos falar disso mais à frente).
+
+Felizmente, o Vagrant vem com esse provisionamento embutido nele, podendo ser
+usado o [chef](http://www.opscode.com/chef), tanto o
+[chef solo](http://wiki.opscode.com/display/chef/Chef+Solo) quanto o
+[chef server](http://wiki.opscode.com/display/chef/Chef+Server), ou o
+[Puppet](http://www.puppetlabs.com/puppet), ou ainda você pode
+[estender o vagrant](/v1/docs/provisioners/others.html) para que suporte mais
+provisionadores (esse é um tópico avançado que não cobriremos aqui).
 
 Luckily, Vagrant comes with provisioning built right into the software by
 using [chef](http://www.opscode.com/chef), either [chef solo](http://wiki.opscode.com/display/chef/Chef+Solo)
